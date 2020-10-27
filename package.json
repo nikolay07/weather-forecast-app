@@ -2,7 +2,7 @@
   "name": "weather-app",
   "version": "1.0.0",
   "main": "webpack.config.js",
-  "homepage": "https://nikolay07.github.io/weather-forecast-app/",
+  "homepage": "https://nikolay07.github.io/weather-forecast-app",
   "description": "",
   "scripts": {
     "build": "webpack -p",

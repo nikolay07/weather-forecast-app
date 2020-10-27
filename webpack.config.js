@@ -12,7 +12,9 @@ module.exports = (env, argv) => {
     output: {
       filename: "bundle.js",
       publicPath: "/",
+      path: path.resolve(__dirname, "build"),
     },
+
     module: {
       rules: [
         {
