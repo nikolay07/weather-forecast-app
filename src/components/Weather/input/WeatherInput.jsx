@@ -21,7 +21,6 @@ const WeatherInput = ({ submit, value, change, cities, changeInfo }) => {
     <div className="city-search">
       <form className="search" onSubmit={submit}>
         <input className="search__input" type="text" value={value} placeholder="Enter city" onChange={change} />
-        {/* <Input color="primary" value={value} placeholder="Enter city" onChange={change} /> */}
         <Button
           variant="contained"
           color="primary"
