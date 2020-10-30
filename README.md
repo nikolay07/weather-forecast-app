@@ -1,5 +1,5 @@
-#Weather-forecast app
-### Go **[here](https://weather-forecasts-app.netlify.app/)** for live demo.
+# Weather-forecast app
+### Go **["forecast"](https://weather-forecasts-app.netlify.app/)** for live demo.
 
 *To display the weather forecast in the input field, you need to enter the name of the city name in Russian or English and press the enter or search button.
 The last 5 cities entered in the input are saved by the input field. By clicking on one of them, you can see the forecast.
