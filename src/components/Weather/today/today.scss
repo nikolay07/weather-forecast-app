@@ -74,3 +74,30 @@
   padding: 10px;
   padding: 20px 10px;
 }
+.result-large-text {
+  color: #ffffff;
+  display: block;
+  padding: 5px 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.result-text {
+  color: #ffffff;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.result-small-text {
+  color: #ffffff;
+  display: block;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  padding: 5px 0;
+  text-transform: capitalize;
+}

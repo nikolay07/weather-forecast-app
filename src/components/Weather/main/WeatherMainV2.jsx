@@ -63,7 +63,7 @@ const WeatherMain = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <div className="app-weather">
+        <div className="weather">
           <WeatherInput
             value={values}
             change={handleInputChange}
