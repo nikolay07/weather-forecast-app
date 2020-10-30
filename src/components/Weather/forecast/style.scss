@@ -15,6 +15,7 @@
   color: #ffffff;
   font-size: 17px;
 }
+
 .forecast-style {
   position: relative;
   display: flex;
@@ -28,6 +29,7 @@
   font-size: 24px;
   display: block;
   text-align: center;
+  margin: 10px;
 }
 .forecast-day {
   display: flex;
@@ -47,4 +49,23 @@
   width: 80px;
   height: 80px;
   display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+  .forecast-main {
+    text-align: center;
+  }
+  .forecast-text {
+    padding: 10px;
+  }
+  .forecast-style {
+    height: 80vh;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+  }
+  .forecast-day {
+    width: 35vw;
+  }
 }

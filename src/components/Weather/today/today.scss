@@ -23,9 +23,7 @@
 .result {
   display: flex;
   flex-wrap: nowrap;
-
   position: relative;
-
   &__image {
     display: flex;
     &_icon {
@@ -100,4 +98,14 @@
   text-align: center;
   padding: 5px 0;
   text-transform: capitalize;
+}
+@media screen and (max-width: 1024px) {
+  .result {
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-right: 20px;
+  }
+  .result-block {
+    padding-top: 0;
+  }
 }

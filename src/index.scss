@@ -7,9 +7,11 @@
 
 body {
   position: relative;
-  width: 100vw;
+  // width: 100vw;
   background-color: lightseagreen;
   background-image: url("/src/img/page.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .weather {
@@ -17,4 +19,10 @@ body {
   margin-top: 100px;
   width: 100%;
   position: relative;
+  padding: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .weather {
+    margin-top: 20px;
+  }
 }
