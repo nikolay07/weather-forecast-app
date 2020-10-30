@@ -7,11 +7,11 @@
 
 body {
   position: relative;
-  // width: 100vw;
   background-color: lightseagreen;
   background-image: url("/src/img/page.jpg");
-  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .weather {
